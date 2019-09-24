@@ -1,0 +1,229 @@
+.tab_content { 
+	background: #6c90bf; 
+	border: 1px solid #6f9dd9; 
+	border-top: 0; 
+	font-size: 95%;
+}
+
+ul.tabs {
+	list-style: none;
+  margin: 0;
+  padding: 0;
+	border-bottom: 1px solid #6f9dd9;
+	height: 32px;
+}
+
+ul.tabs li {
+            float: left;
+	padding-right: 5px;
+            padding-top: 6px;
+            vertical-align: bottom;
+	height: 24px;
+}
+
+ul.tabs a {
+	border: 1px solid #6f9dd9;
+	border-bottom: 0;
+	display: block;
+	color: #000;
+	padding: 5px 5px 4px 5px;
+	background: #bacde6 url(../../../images/gradient_tcat.png);
+  text-decoration: none;
+}
+
+ul.tabs li.first a {
+	padding-right: 5px;
+  text-decoration: none;
+}
+
+ul.tabs li.last a {
+	padding-left: 5px;
+  text-decoration: none;
+}
+
+ul.tabs li a.active,
+ul.tabs li.first a.active,
+ul.tabs li.last a.active {
+	background: #6181aa url(../../../images/gradient_thead.png);
+	color: #FFF;
+	padding-top: 6px;
+	border-bottom: 0;
+	text-align: center;	
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.border_wrapper {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 14px;
+}
+
+.border_wrapper div.title {
+	color: #4C4C4C;
+	padding: 6px 0;
+	font-size: 12px;
+	text-align: left;
+	font-weight: bold;
+	border-bottom: 1px solid #4E7CB7;
+}
+
+.border_wrapper div.title a {
+	color: #577ED1;
+	text-decoration: none;
+}
+
+table.general {
+	background: #ccc;
+	width: 100%;
+}
+
+table.general td {
+	border-top: 1px solid #E0E0E0;
+}
+
+table.bottom_cell_border td {
+	border-right: 0;
+	border-left: 0;
+}
+
+table.general td {
+	background: #FFFFFF;
+	padding: 6px 3px;
+	vertical-align: top;
+}
+
+table.general th {
+	background: #C0DBFF;
+	text-align: left;
+	color: #003399;
+	padding: 5px;
+	font-size: 100%;
+	font-weight: normal;
+	border-bottom: 1px solid #D6E8FF;
+	border-top: 1px solid #F2F8FF;
+}
+
+table.general th a, table.general th {
+	color: #003399;
+	text-decoration: none;
+}
+
+table.general th.last {
+	border-right: 0;
+}
+
+table.general th a, table.general th {
+	color: #949494;
+	text-decoration: none;
+}
+
+table.general .alt_row td {
+	background: #F9F9F9;
+}
+
+table td.alt_col {
+	background: #f1f1f1;
+}
+
+table.general tr.last td {
+	border-bottom: 1px solid #E0E0E0;
+}
+
+table.form_container tr.first td {
+	border-top: 0;
+}
+
+.shade, a.shade:link, a.shade:visited {
+ color: #777777; text-decoration: none;
+}
+
+a.shade:active, a.shade:hover {
+ color: #FF4400; text-decoration: underline;
+}
+
+.tcat .shade, .thead .shade, .tfoot .shade {
+ color: #DDDDDD;
+}
+
+#customfields {
+ margin-top: 5px; margin-bottom: 0px;
+ margin-left: 15px;
+}
+
+#customfields dd {
+ margin: 0px 0px 6px 0px;
+}
+
+dl {
+ margin: 0;
+}
+
+dd {
+ margin-top: 0px;
+ margin-bottom: 3px; 
+ margin-left: 15px;
+ margin-right: 0px;
+}
+
+.nolist {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+
+#tab_statistics fieldset.stats {
+	margin-top:6px;
+}
+
+#tab_statistics fieldset.stats ul {
+	padding:6px;
+}
+
+#tab_statistics fieldset.stats ul li {
+	margin-bottom:3px;
+}
+
+#tab_contactinfo fieldset {
+	margin-bottom:6px;
+}
+
+#tab_contactinfo div.fieldset_padding {
+	padding:6px;
+}
+
+#tab_contactinfo #messaging_list li {
+	margin-bottom:3px;
+	margin-right:16px;
+	float:left;
+	white-space:nowrap;
+}
+
+#tab_contactinfo #im_list li {
+	margin-top:6px;
+	margin-right:6px;
+	position:relative;
+}
+
+#tab_contactinfo #im_list .im_txt_link {
+	position:absolute;
+	left:75px;
+}
+
+#tab_contactinfo dd {
+	margin-left:0px;
+	margin-bottom:6px;
+}
+
+li.memberinfo_tiny {
+	height:105px;
+	width:75px;
+	overflow:hidden;
+	float:left;
+	text-align:center;
+	margin:1px;
+}
+
+
+		
+		
